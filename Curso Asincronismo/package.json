@@ -1,0 +1,20 @@
+{
+  "name": "curso-asincronismo",
+  "version": "1.0.0",
+  "description": "Trabjando con asincronismo en Javascript",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "challenge": "node src/callback/challenge.js",
+    "promise": "node src/promises/index.js",
+    "callengePromise": "node src/promises/challenge.js",
+    "async": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js"
+
+  },
+  "author": "Miguel Angel Perez Cifuentes",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
